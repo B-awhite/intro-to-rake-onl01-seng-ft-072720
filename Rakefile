@@ -1,4 +1,4 @@
-
+task :migrate => :environment do
 
 namespace :db do
   desc 'migrate changes to your database'
